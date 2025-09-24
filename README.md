@@ -1,3 +1,21 @@
+D&D Ultimate Tool
+==========================
+
+* [Goals](#goals)
+* [Generating CHANGELOG.md](#generating-changelogmd)
+  * [Recognizing unimportant commits](#recognizing-unimportant-commits)
+  * [Provide more information when browsing the history](#provide-more-information-when-browsing-the-history)
+* [Format of the commit message](#format-of-the-commit-message)
+  * [Subject line](#subject-line)
+    * [Allowed `<type>`](#allowed-type)
+    * [Allowed `<scope>`](#allowed-scope)
+    * [`<subject>` text](#subject-text)
+  * [Message body](#message-body)
+  * [Message footer](#message-footer)
+    * [Breaking changes](#breaking-changes)
+    * [Referencing issues](#referencing-issues)
+  * [Examples](#examples)
+
 # Title
 
 [short descriptive summary of what the object/message does]
@@ -19,6 +37,7 @@
 [For objects/modules, describe the general architecture, so people
  know how each piece fits together, and can better reason about
  its behaviour/contribute]
+
 
 
 
