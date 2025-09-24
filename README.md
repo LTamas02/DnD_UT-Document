@@ -1,3 +1,5 @@
+#Title
+
 [short descriptive summary of what the object/message does]
 
 ## Why?
@@ -17,3 +19,4 @@
 [For objects/modules, describe the general architecture, so people
  know how each piece fits together, and can better reason about
  its behaviour/contribute]
+
