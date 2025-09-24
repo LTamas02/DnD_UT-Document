@@ -1,7 +1,7 @@
 D&D Ultimate Tool
 ==========================
 
-* [Goals](#goals)
+* [Title](#title)
 * [Generating CHANGELOG.md](#generating-changelogmd)
   * [Recognizing unimportant commits](#recognizing-unimportant-commits)
   * [Provide more information when browsing the history](#provide-more-information-when-browsing-the-history)
@@ -37,6 +37,7 @@ D&D Ultimate Tool
 [For objects/modules, describe the general architecture, so people
  know how each piece fits together, and can better reason about
  its behaviour/contribute]
+
 
 
 
