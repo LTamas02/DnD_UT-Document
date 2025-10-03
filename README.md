@@ -2,9 +2,9 @@ D&D Ultimate Tool
 ==========================
 
 * [Title](#title)
-* [Generating CHANGELOG.md](#generating-changelogmd)
-  * [Recognizing unimportant commits](#recognizing-unimportant-commits)
-  * [Provide more information when browsing the history](#provide-more-information-when-browsing-the-history)
+* [Used programming languages](#used-programing-languages)
+  * [Frontend](#frontend)
+  * [Backend](#backend)
 * [Format of the commit message](#format-of-the-commit-message)
   * [Subject line](#subject-line)
     * [Allowed `<type>`](#allowed-type)
@@ -37,6 +37,7 @@ D&D Ultimate Tool
 [For objects/modules, describe the general architecture, so people
  know how each piece fits together, and can better reason about
  its behaviour/contribute]
+
 
 
 
