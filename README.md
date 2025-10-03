@@ -87,7 +87,7 @@ A rendszer 3 rétegből áll:
 ---
 
 ## 📘 Használati útmutató
-1. Nyisd meg a webes alkalmazást a böngésződben (`https://sajatdomain.hu`)  
+1. Nyisd meg a webes alkalmazást a böngésződben (`https://dnd-tool.hu`)  
 2. Regisztrálj vagy jelentkezz be
  ![ Login](./Login.png)
 3. Hozz létre karaktert és kampányt  
@@ -112,6 +112,7 @@ Ez a projekt [MIT](LICENSE) licenc alatt érhető el.
 - [Adeniran Ádám Kristóf](https://github.com/Adeniran24)  
 - [László Tamás](https://github.com/LTamas02)  
  
+
 
 
 
