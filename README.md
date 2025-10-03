@@ -39,7 +39,7 @@ A projekt **React** frontendet és **ASP.NET** backendet használ, az adatok tá
 ---
 
 ## 🏗️ Technológiák
-###**Frontend:**
+### **Frontend:**
 - React + Vite
 - Bootstrap / TailwindCSS
 
@@ -97,6 +97,7 @@ Ez a projekt [MIT](LICENSE) licenc alatt érhető el.
 - [Adeniran Ádám Kristóf](https://github.com/Adeniran24)  
 - [László Tamás](https://github.com/LTamas02)  
  
+
 
 
 
