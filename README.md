@@ -32,16 +32,16 @@ React
 
 ## Backend
 
-[if applicable, provide a description of the problems people might
- run into by using this object, because of some design trade-off
- you made (maybe your API is easy to use and consistent, but not
- very efficient? Detail that here)]
+[Szerver olrali programozási nyelvek]
+ASP.net
+- C#
 
 ## Architecture
 
 [For objects/modules, describe the general architecture, so people
  know how each piece fits together, and can better reason about
  its behaviour/contribute]
+
 
 
 
