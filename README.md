@@ -10,17 +10,17 @@ A projekt **React** frontendet és **ASP.NET** backendet használ, az adatok tá
   * []()  
   * [Célközönség](#célközönség)
 * [Funkciók](#-funkciók)
-* [Technológiák](#technológiák)
+* [Technológiák](#-technológiák)
   * [Frontend](#frontend)
   * [Backend](#backend)
   * [Adatbázis](#adatbázis)
   * [Fejlesztői eszközök](#fejlesztői-eszközök)
-* [Architektúra](#architektúra)
-* [Tesztelés](#tesztelés)
-* [Használati útmutató](#használati-útmutató)
-* [Továbbfejleszési lehetőségek](#továbbfejlestészi-lehetőségek)
-* [Licence](#licenc)
-* [Fejlesztők](#fejlesztők)
+* [Architektúra](#-architektúra)
+* [Tesztelés](#-tesztelés)
+* [Használati útmutató](#-használati-útmutató)
+* [Továbbfejleszési lehetőségek](#-továbbfejlestészi-lehetőségek)
+* [Licence](#-licenc)
+* [Fejlesztők](#-fejlesztők)
 
 
 # Projekt információk
@@ -97,6 +97,7 @@ Ez a projekt [MIT](LICENSE) licenc alatt érhető el.
 - [Adeniran Ádám Kristóf](https://github.com/Adeniran24)  
 - [László Tamás](https://github.com/LTamas02)  
  
+
 
 
 
