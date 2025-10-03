@@ -1,7 +1,7 @@
 D&D Ultimate Tool
 ==========================
 
-* [Használt programozási nyelvek](#hasznalt-programozási-nyelvek)
+* [Használt programozási nyelvek](#használt-programozási-nyelvek)
   * [Frontend](#frontend)
   * [Backend](#backend)
 * [Format of the commit message](#format-of-the-commit-message)
@@ -36,6 +36,7 @@ D&D Ultimate Tool
 [For objects/modules, describe the general architecture, so people
  know how each piece fits together, and can better reason about
  its behaviour/contribute]
+
 
 
 
