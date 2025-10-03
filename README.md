@@ -1,3 +1,11 @@
+![D&D Ultimate Tool Logo](./assets/logo.png)
+
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/) 
+[![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/) 
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
+
 🎲 D&D Ultimate Tool
 ==========================
 (Egy webes alkalmazás, amely segít a **Dungeons & Dragons** játékosoknak és mesélőknek a kampánykezelésben.  
@@ -97,6 +105,7 @@ Ez a projekt [MIT](LICENSE) licenc alatt érhető el.
 - [Adeniran Ádám Kristóf](https://github.com/Adeniran24)  
 - [László Tamás](https://github.com/LTamas02)  
  
+
 
 
 
