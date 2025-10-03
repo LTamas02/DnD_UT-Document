@@ -31,10 +31,14 @@ A projekt **React** frontendet és **ASP.NET** backendet használ, az adatok tá
 * [Fejlesztők](#-fejlesztők)
 
 
-# Projekt információk
-## Cél
-## a
-## Célközönség
+## Projekt információk
+### Cél
+Egy komplex webes eszköz létrehozása Dungeons & Dragons játékosok és mesélők számára, hogy könnyedén kezelhessék kampányaikat, karaktereiket és dobásukat.
+
+### Célközönség
+- D&D játékosok
+- Mesélők (Dungeon Masters)
+- Társasjáték-rajongók
 
 ---
 
@@ -59,11 +63,13 @@ A projekt **React** frontendet és **ASP.NET** backendet használ, az adatok tá
 ### **Adatbázis:**
 - MySQL
 
-### **Fejlesztői eszközök:**
+### Fejlesztői eszközök:
 - Git & GitHub
+- Visual Studio Code
+- Visual Studio 2022 Community
 - Docker (opcionális)
 - Postman (API teszteléshez)
-- 
+
 ---
 
 ## 📦 Architektúra
@@ -105,6 +111,7 @@ Ez a projekt [MIT](LICENSE) licenc alatt érhető el.
 - [Adeniran Ádám Kristóf](https://github.com/Adeniran24)  
 - [László Tamás](https://github.com/LTamas02)  
  
+
 
 
 
