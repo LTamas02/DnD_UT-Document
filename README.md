@@ -1,6 +1,7 @@
 D&D Ultimate Tool
 ==========================
 
+## 📖 Tartalomjegyzék
 * [Projekt információk](#projekt-információk)
   *[Cél](#cél)
   
@@ -57,7 +58,6 @@ Rövid leírás: mit csinál a projekt és miért hasznos.
 
 ---
 
-## 📖 Tartalomjegyzék
 - [Leírás](#-leírás)
 - [Funkciók](#-funkciók)
 - [Telepítés](#-telepítés)
@@ -89,6 +89,7 @@ Például: *Ez egy webes chat alkalmazás, amely támogatja a csoportos beszélg
    ```bash
    git clone https://github.com/felhasznalo/projekt-nev.git
    cd projekt-nev
+
 
 
 
