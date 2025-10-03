@@ -17,7 +17,7 @@ D&D Ultimate Tool
 
 # Használt programozási nyelvek
 
-[A két végpontba szétválaszott nyelvek]
+[A nyelvek szétválasztva oldalak szerint]
 
 ## Frontend
 
@@ -36,6 +36,7 @@ D&D Ultimate Tool
 [For objects/modules, describe the general architecture, so people
  know how each piece fits together, and can better reason about
  its behaviour/contribute]
+
 
 
 
