@@ -3,100 +3,49 @@ D&D Ultimate Tool
 
 ## 📖 Tartalomjegyzék
 * [Projekt információk](#projekt-információk)
-  *[Cél](#cél)
+  * [Cél](#cél)
   
-  *[Célközönség](#célközönség)
-* []()
-  * []()
-* [Használt programozási nyelvek](#használt-programozási-nyelvek)
+  * [Célközönség](#célközönség)
+* [Funkciók](#funkciók)
+* [Technológiák](#technológiák)
   * [Frontend](#frontend)
   * [Backend](#backend)
-* [Format of the commit message](#format-of-the-commit-message)
-  * [Subject line](#subject-line)
-    * [Allowed `<type>`](#allowed-type)
-    * [Allowed `<scope>`](#allowed-scope)
-    * [`<subject>` text](#subject-text)
-  * [Message body](#message-body)
-  * [Message footer](#message-footer)
-    * [Breaking changes](#breaking-changes)
-    * [Referencing issues](#referencing-issues)
-  * [Examples](#examples)
+  * [Adatbázis](#adatbázis)
+  * [Fejlesztői eszközök](#fejlesztői-eszközök)
 
 
 # Projekt információk
 ## Cél
-## Csapat
-
-# Használt programozási nyelvek
-
-[A nyelvek szétválasztva oldalak szerint]
-
-## Frontend
-
-[Kliens oldali programozási nyelvek.]
-
-React
-- JavaScript
-- Html
-- Css
-- Json
-  
-
-## Backend
-
-[Szerver olrali programozási nyelvek]
-ASP.net
-- C#
-
-
-
-
-
-# 🎯 Projekt neve
-
-Rövid leírás: mit csinál a projekt és miért hasznos.
-
----
-
-- [Leírás](#-leírás)
-- [Funkciók](#-funkciók)
-- [Telepítés](#-telepítés)
-- [Használat](#-használat)
-- [Technológiák](#-technológiák)
-- [Tesztelés](#-tesztelés)
-- [Hozzájárulás](#-hozzájárulás)
-- [Licenc](#-licenc)
-
----
-
-## 📋 Leírás
-Írd le részletesebben, hogy mire való a projekt.  
-Például: *Ez egy webes chat alkalmazás, amely támogatja a csoportos beszélgetéseket és a privát üzeneteket.*
+## a
+## Célközönség
 
 ---
 
 ## 🚀 Funkciók
-- ✅ Bejelentkezés / Regisztráció  
-- ✅ Adatbázis kapcsolat (MySQL)  
-- ✅ Csoportos chat és privát üzenetek  
-- ✅ Reszponzív felület  
+- 📜 Karakterek létrehozása és kezelése  
+- 🗺️ Kampányok és kalandok nyilvántartása  
+- 🎲 Dobáskalkulátor és szabálykönyv integráció  
+- 👥 Többjátékos támogatás (DM és játékos nézet)  
 
 ---
 
-## ⚙️ Telepítés
+## 🏗️ Technológiák
+**Frontend:**
+- React + Vite
+- Bootstrap / TailwindCSS
 
-1. Klónozd a repót:
-   ```bash
-   git clone https://github.com/felhasznalo/projekt-nev.git
-   cd projekt-nev
+**Backend:**
+- ASP.NET Core Web API
+- C#
+- Entity Framework
 
+**Adatbázis:**
+- MySQL
 
+**Fejlesztői eszközök:**
+- Git & GitHub
+- Docker (opcionális)
+- Postman (API teszteléshez)
 
-
-
-
-
-
-
-
+---
 
