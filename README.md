@@ -1,4 +1,7 @@
-D&D Ultimate Tool
+🎲 D&D Ultimate Tool
+
+Egy webes alkalmazás, amely segít a **Dungeons & Dragons** játékosoknak és mesélőknek a kampánykezelésben.  
+A projekt **React** frontendet
 ==========================
 
 ## 📖 Tartalomjegyzék
@@ -48,4 +51,5 @@ D&D Ultimate Tool
 - Postman (API teszteléshez)
 
 ---
+
 
