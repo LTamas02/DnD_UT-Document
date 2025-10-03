@@ -21,8 +21,11 @@ D&D Ultimate Tool
 
 ## Frontend
 
-[detailed description of WHY the object exists. This should provide
- compelling arguments on why someone might use the object.]
+[Kliens oldali programozási nyelvek.]
+
+- React
+-- javascript
+  
 
 ## Backend
 
@@ -36,6 +39,7 @@ D&D Ultimate Tool
 [For objects/modules, describe the general architecture, so people
  know how each piece fits together, and can better reason about
  its behaviour/contribute]
+
 
 
 
