@@ -1,6 +1,12 @@
 D&D Ultimate Tool
 ==========================
 
+* [Projekt információk](#projekt-információk)
+  *[Cél](#cél)
+  
+  *[Célközönség](#célközönség)
+* []()
+  * []()
 * [Használt programozási nyelvek](#használt-programozási-nyelvek)
   * [Frontend](#frontend)
   * [Backend](#backend)
@@ -14,6 +20,11 @@ D&D Ultimate Tool
     * [Breaking changes](#breaking-changes)
     * [Referencing issues](#referencing-issues)
   * [Examples](#examples)
+
+
+# Projekt információk
+## Cél
+## Csapat
 
 # Használt programozási nyelvek
 
@@ -36,13 +47,48 @@ React
 ASP.net
 - C#
 
-## Architecture
-
-[For objects/modules, describe the general architecture, so people
- know how each piece fits together, and can better reason about
- its behaviour/contribute]
 
 
+
+
+# 🎯 Projekt neve
+
+Rövid leírás: mit csinál a projekt és miért hasznos.
+
+---
+
+## 📖 Tartalomjegyzék
+- [Leírás](#-leírás)
+- [Funkciók](#-funkciók)
+- [Telepítés](#-telepítés)
+- [Használat](#-használat)
+- [Technológiák](#-technológiák)
+- [Tesztelés](#-tesztelés)
+- [Hozzájárulás](#-hozzájárulás)
+- [Licenc](#-licenc)
+
+---
+
+## 📋 Leírás
+Írd le részletesebben, hogy mire való a projekt.  
+Például: *Ez egy webes chat alkalmazás, amely támogatja a csoportos beszélgetéseket és a privát üzeneteket.*
+
+---
+
+## 🚀 Funkciók
+- ✅ Bejelentkezés / Regisztráció  
+- ✅ Adatbázis kapcsolat (MySQL)  
+- ✅ Csoportos chat és privát üzenetek  
+- ✅ Reszponzív felület  
+
+---
+
+## ⚙️ Telepítés
+
+1. Klónozd a repót:
+   ```bash
+   git clone https://github.com/felhasznalo/projekt-nev.git
+   cd projekt-nev
 
 
 
