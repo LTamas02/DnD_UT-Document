@@ -1,8 +1,7 @@
 D&D Ultimate Tool
 ==========================
 
-* [Title](#title)
-* [Used programming languages](#used-programing-languages)
+* [Használt programozási nyelvek](#hasznalt-programozási-nyelvek)
   * [Frontend](#frontend)
   * [Backend](#backend)
 * [Format of the commit message](#format-of-the-commit-message)
@@ -16,16 +15,16 @@ D&D Ultimate Tool
     * [Referencing issues](#referencing-issues)
   * [Examples](#examples)
 
-# Title
+# Használt programozási nyelvek
 
-[short descriptive summary of what the object/message does]
+[A két végpontba szétválaszott nyelvek]
 
-## Why?
+## Frontend
 
 [detailed description of WHY the object exists. This should provide
  compelling arguments on why someone might use the object.]
 
-## Drawbacks
+## Backend
 
 [if applicable, provide a description of the problems people might
  run into by using this object, because of some design trade-off
@@ -37,6 +36,7 @@ D&D Ultimate Tool
 [For objects/modules, describe the general architecture, so people
  know how each piece fits together, and can better reason about
  its behaviour/contribute]
+
 
 
 
