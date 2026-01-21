@@ -295,12 +295,22 @@
 	Az alábbi példa egy tipikus végpont szerkezetét szemlélteti (szemléltető jelleggel):
 	
 	\begin{lstlisting}[language=JavaScript,caption={Példa API végpont (szemléltető)}]
-		[HttpGet("campaigns")]
-		[Authorize]
-		public IActionResult GetCampaigns() {
-			// Lekérdezés és visszaadás DTO-ként
-			return Ok(new { Items = new [] { "Campaign A", "Campaign B" } });
+		[HttpGet("list")]
+		public async Task<IActionResult> GetFriends()
+		{
+			int userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+			
+			var friends = await _context.Friendships
+			.Where(f => (f.RequesterId == userId || f.AddresseeId == userId) && f.Status == FriendshipStatus.Accepted)
+			.Include(f => f.Requester)
+			.Include(f => f.Addressee)
+			.ToListAsync();
+			
+			//Itt van a helye a friend dto kezelésnek
+			
+			return Ok(friendDtos);
 		}
+		
 	\end{lstlisting}
 	
 	\subsubsection{Entity Framework Core}
@@ -347,16 +357,29 @@
 	kampánylista) külön fejleszthetők és karbantarthatók legyenek.
 	
 	\begin{lstlisting}[language=JavaScript,caption={Példa React komponens (szemléltető)}]
-		import React from "react";
+		import React from 'react';
+		import { Link } from 'react-router-dom';
+		import '../assets/styles/Navbar.css';
+		import '../assets/styles/WikiTheme.css'; // unified theme
 		
-		export default function CampaignCard({ name, members }) {
+		//Itt van a helye a szekciók felsorolásának
+		
+		const Wiki = () => {
 			return (
-			<div className="card">
-			<h3>{name}</h3>
-			<p>Játékosok: {members}</p>
+			<div className="page-comp">
+			<div className="page-overlay">
+			<h1>Wiki</h1>
+			<p>Explore the different sections of the game wiki below:</p>
+			
+			
+			//Kártya Gridek helye
+			</div>
 			</div>
 			);
-		}
+		};
+		
+		export default Wiki;
+		
 	\end{lstlisting}
 	
 	\subsection{Fejlesztői eszközök}
@@ -377,7 +400,6 @@
 	\begin{itemize}
 		\item \textbf{Karakterkezelés:} karakterek létrehozása, módosítása, mentése
 		\item \textbf{Kampánykezelés:} kampányok, kalandnapló, jegyzetek
-		\item \textbf{Dobáskalkulátor:} testreszabható kockadobás
 		\item \textbf{Wiki modul:} világ és homebrew tartalom dokumentálása
 		\item \textbf{DM Tools:} kezdeményezés, NPC/szörny adatbázis, encounter támogatás
 		\item \textbf{Barát rendszer:} kapcsolatok kezelése
@@ -397,7 +419,7 @@
 	\begin{itemize}
 		\item Felhasználó regisztrál és bejelentkezik.
 		\item Mesélő kampányt hoz létre, játékosokat meghív.
-		\item Játékos karaktert készít, dobást indít, és chatben egyeztet.
+		\item Játékos karaktert készít, és chatben egyeztet.
 	\end{itemize}
 	
 	% =================================================
@@ -423,8 +445,8 @@
 	Tipikus végpontok:
 	\begin{itemize}
 		\item \texttt{POST /api/auth/login}
-		\item \texttt{GET /api/campaigns}
-		\item \texttt{POST /api/messages}
+		\item \texttt{GET /api/friend/list}
+		\item \texttt{POST /api/chat/send}
 	\end{itemize}
 	
 	\section{UI/UX Tervek (Wireframes)}
@@ -453,13 +475,25 @@
 	Grid/flex alapú elrendezés, mobilbarát menü és töréspontok.
 	
 	\begin{lstlisting}[language=JavaScript,caption={Példa React komponens}]
-		import React from 'react';
 		
-		function Welcome(props) {
-			return <h1>Hello, {props.name}</h1>;
-		}
+		{/* Card Grid */}
+		<div className="wiki-grid">
+		{wikiSections.map((section, index) => (
+			<Link key={index} to={section.path} className="wiki-card">
+			{section.name}
+			</Link>
+			))}
+		</div>
+		<h1>Detailed Information</h1>
 		
-		export default Welcome;
+		{/* Card Grid */}
+		<div className="wiki-grid">
+		{baseInfoSection.map((section, index) => (
+			<Link key={index} to={section.path} className="wiki-card">
+			{section.name}
+			</Link>
+			))}
+		</div>
 	\end{lstlisting}
 	
 	\section{WPF Desktop alkalmazás}

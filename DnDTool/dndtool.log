@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.16)  21 JAN 2026 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.16)  21 JAN 2026 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1214,65 +1214,74 @@ Package pdftex.def Info: img/logo.png  used on input line 229.
 
 ] [5]
 2. fejezet.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-72.
-(c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [6
+<img/architecture.png, id=265, 1027.84pt x 1541.76pt>
+File: img/architecture.png Graphic file (type png)
+<use img/architecture.png>
+Package pdftex.def Info: img/architecture.png  used on input line 272.
+(pdftex.def)             Requested size: 341.43306pt x 512.1465pt.
+[6
 
-]
+] [7 <./img/architecture.png (PNG copy)>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 297.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 302.
- [7] [8] [9]
-3. fejezet.
-[10
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+97.
 
-] [11]
+(c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 299.
+ [8]
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+360.
+
+(c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmtt.fd
+File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [9{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [10]
+3. fejezet.
+[11
+
+]
 4. fejezet.
 [12
 
 ] [13]
 5. fejezet.
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-456.
-(c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmtt.fd
-File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [14
+[14
 
-{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [15]
+] [15]
 6. fejezet.
 [16
 
 ]
 7. fejezet.
-<img/login.jpg, id=349, 147.4308pt x 147.4308pt>
-File: img/login.jpg Graphic file (type jpg)
-<use img/login.jpg>
-Package pdftex.def Info: img/login.jpg  used on input line 506.
-(pdftex.def)             Requested size: 341.43306pt x 341.48853pt.
+<img/login.png, id=383, 1445.4pt x 813.0375pt>
+File: img/login.png Graphic file (type png)
+<use img/login.png>
+Package pdftex.def Info: img/login.png  used on input line 540.
+(pdftex.def)             Requested size: 341.43306pt x 192.0563pt.
 [17
 
-] [18 <./img/login.jpg>]
+ <./img/login.png>]
 8. fejezet.
-[19
+[18
 
-] [20]
-<img/rdb.png, id=372, 903.375pt x 788.9475pt>
+] [19]
+<img/rdb.png, id=405, 903.375pt x 788.9475pt>
 File: img/rdb.png Graphic file (type png)
 <use img/rdb.png>
-Package pdftex.def Info: img/rdb.png  used on input line 546.
+Package pdftex.def Info: img/rdb.png  used on input line 580.
 (pdftex.def)             Requested size: 398.33858pt x 347.88434pt.
- [21
+ [20
 
  <./img/rdb.png>]
-<img/melleklet.jpg, id=378, 941.31676pt x 448.67625pt>
+<img/melleklet.jpg, id=411, 941.31676pt x 448.67625pt>
 File: img/melleklet.jpg Graphic file (type jpg)
 <use img/melleklet.jpg>
-Package pdftex.def Info: img/melleklet.jpg  used on input line 556.
+Package pdftex.def Info: img/melleklet.jpg  used on input line 590.
 (pdftex.def)             Requested size: 654.41338pt x 311.92151pt.
- [22 <./img/melleklet.jpg>] [23
+ [21 <./img/melleklet.jpg>] [22
 
 
 
@@ -1285,13 +1294,13 @@ Package rerunfilecheck Info: File `dndtool.out' has not changed.
 (rerunfilecheck)             Checksum: 2F8BC06D32ABFADFB0B48B6AF2A5538E;9562.
  ) 
 Here is how much of TeX's memory you used:
- 37997 strings out of 467538
- 792309 string characters out of 5423725
- 1427399 words of memory out of 5000000
- 66215 multiletter control sequences out of 15000+600000
+ 38048 strings out of 467538
+ 792900 string characters out of 5423725
+ 1474399 words of memory out of 5000000
+ 66234 multiletter control sequences out of 15000+600000
  694669 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,8n,108p,1904b,2106s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,7n,108p,1904b,2106s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025
 /texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts
 /type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lm
@@ -1299,10 +1308,10 @@ r6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive
 /2025/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2025/texmf-dist/f
 onts/type1/public/lm/lmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/
 lm/lmtt12.pfb>
-Output written on dndtool.pdf (23 pages, 1079113 bytes).
+Output written on dndtool.pdf (22 pages, 4151835 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 405 compressed objects within 5 object streams
- 112 named destinations out of 1000 (max. 500000)
- 398 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 496 PDF objects out of 1000 (max. 8388607)
+ 441 compressed objects within 5 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 403 words of extra memory for PDF output out of 10000 (max. 10000000)
 
