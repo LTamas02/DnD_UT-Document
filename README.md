@@ -1,5 +1,5 @@
 
-## Kapcsolódó GitHub repók
+## Összes GitHub repók
 
 A projekt több különálló, de egymással szorosan együttműködő GitHub repóból áll:
 
@@ -11,9 +11,9 @@ A projekt több különálló, de egymással szorosan együttműködő GitHub re
   https://github.com/Adeniran24/DnD_UT-Backend  
   A C# alapú API felel a rendszer üzleti logikájáért, a hitelesítésért, a karakterkezelésért, a DM eszközök kiszolgálásáért és a közösségi funkciók backendjéért.
 
-- **Adatbázis**  
-  https://github.com/Adeniran24/DnD_UT-Adatbazis  
-  A MySQL adatbázis sémái, táblák, relációk, migrációk és inicializáló adatok (seed-ek) találhatók itt.
+- **Asztali/WPF**  
+  https://github.com/Adeniran24/DnD-Desktop
+  A C# alapú asztali alkalmazás a felhasználó kezeléséhez adminként.
 
 ---
 
@@ -22,6 +22,7 @@ A projekt több különálló, de egymással szorosan együttműködő GitHub re
 - [Adeniran Ádám Kristóf](https://github.com/Adeniran24)  
 - [László Tamás](https://github.com/LTamas02)  
  
+
 
 
 
