@@ -12,7 +12,7 @@ A projekt több különálló, de egymással szorosan együttműködő GitHub re
   A C# alapú API felel a rendszer üzleti logikájáért, a hitelesítésért, a karakterkezelésért, a DM eszközök kiszolgálásáért és a közösségi funkciók backendjéért.
 
 - **Asztali/WPF**  
-  https://github.com/Adeniran24/DnD-Desktop
+  https://github.com/Adeniran24/DnD-Desktop  
   A C# alapú asztali alkalmazás a felhasználó kezeléséhez adminként.
 
 ---
@@ -22,6 +22,7 @@ A projekt több különálló, de egymással szorosan együttműködő GitHub re
 - [Adeniran Ádám Kristóf](https://github.com/Adeniran24)  
 - [László Tamás](https://github.com/LTamas02)  
  
+
 
 
 
