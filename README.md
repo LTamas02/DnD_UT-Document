@@ -15,6 +15,9 @@ A projekt több különálló, de egymással szorosan együttműködő GitHub re
   https://github.com/Adeniran24/DnD-Desktop  
   A C# alapú asztali alkalmazás a felhasználó kezeléséhez adminként.
 
+- **Adatbázis**
+  https://github.com/Adeniran24/DnD_UT-Adatbazis
+  A MYSQL-ben készített adatbázis, a D&D Ultimate Tool-hoz
 ---
 
 
@@ -22,6 +25,7 @@ A projekt több különálló, de egymással szorosan együttműködő GitHub re
 - [Adeniran Ádám Kristóf](https://github.com/Adeniran24)  
 - [László Tamás](https://github.com/LTamas02)  
  
+
 
 
 
